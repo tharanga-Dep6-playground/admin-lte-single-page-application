@@ -254,12 +254,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Customer</h1>
+                        <h1 class="m-0 text-dark">Item</h1>
                     </div><!-- /.col -->
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">Add New Customer</li>
+                            <li class="breadcrumb-item active">Add New Item</li>
                         </ol>
                     </div><!-- /.col -->
                 </div><!-- /.row -->
@@ -272,7 +272,7 @@
             <div class="card-body">
                 <div class="heading-layout1">
                     <div class="item-title">
-                        <h3>Add New Customer</h3>
+                        <h3>Add New Item</h3>
                     </div>
                     <div class="dropdown" style="left: 95%">
                         <a class="dropdown-toggle" href="#" role="button"
@@ -288,55 +288,51 @@
                 <form class="new-added-form">
                     <div class="row">
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>First Name *</label>
+                            <label>Item Name *</label>
+                            <input type="text" placeholder="Item Name" class="form-control">
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                            <label>Capacity *</label>
                             <input type="text" placeholder="" class="form-control">
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Last Name *</label>
+                            <label>Price</label>
                             <input type="text" placeholder="" class="form-control">
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Gender *</label>
+                            <label>Supplier Name *</label>
                             <select class="select2">
-                                <option value="">Please Select Gender *</option>
-                                <option value="1">Male</option>
-                                <option value="2">Female</option>
-                                <option value="3">Others</option>
+                                <option value="">Please Select Supplier *</option>
+                                <option value="1">Uniliver</option>
+                                <option value="2">Maliban</option>
+                                <option value="3">Munchee</option>
                             </select>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Date Of Birth *</label>
-                            <input type="date" placeholder="dd/mm/yyyy" class="form-control air-datepicker">
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
                             <label>ID No</label>
                             <input type="text" placeholder="" class="form-control">
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Religion *</label>
+                            <label>Category *</label>
                             <select class="select2">
-                                <option selected disabled value="">Please Select Religion *</option>
-                                <option value="1">Islam</option>
-                                <option value="2">Hindu</option>
-                                <option value="3">Christian</option>
-                                <option value="3">Buddish</option>
-                                <option value="3">Others</option>
+                                <option selected disabled value="">Please Select Category *</option>
+                                <option value="1">Biscuit</option>
+                                <option value="2">Soap</option>
+                                <option value="3">Chocolate</option>
+                                <option value="3">Vegetables</option>
+                                <option value="3">Ice Crem</option>
                             </select>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>E-Mail</label>
-                            <input type="email" placeholder="" class="form-control">
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Address</label>
+                            <label>Re-Order Qty</label>
                             <input type="text" placeholder="" class="form-control">
                         </div>
                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                            <label>Phone</label>
+                            <label>Max Qty</label>
                             <input type="text" placeholder="" class="form-control">
                         </div>
                         <div class="col-lg-6 col-12 form-group mg-t-30">
-                            <label class="text-dark-medium">Upload Customer Photo (150px X 150px)</label>
+                            <label class="text-dark-medium">Upload Item Photo (150px X 150px)</label>
                             <div style="height: 150px; width: 150px;background-color: lightgray; margin: 20px;"></div>
                             <input type="file" class="form-control-file">
                         </div>
