@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
       filename: 'main.bundle.js',
-      path: __dirname+ '/dist/',
+      path: __dirname+ '/docs/',
       publicPath: '',
       assetModuleFilename: 'assets/[hash][ext][query]'
     },
